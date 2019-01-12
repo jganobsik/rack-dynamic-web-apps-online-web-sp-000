@@ -1,8 +1,6 @@
 class Application
-
+ 
   def call(env)
-    resp = Rack::Response.new
-     def call(env)
     resp = Rack::Response.new
  
     num_1 = Kernel.rand(1..20)
@@ -21,5 +19,5 @@ class Application
  
     resp.finish
   end
-
+ 
 end
